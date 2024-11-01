@@ -1,81 +1,110 @@
 
 # Jaepil Choi's CV
 
-- Phone: +90 541 999 99 99
-- Email: [youremail@yourdomain.com](mailto:youremail@yourdomain.com)
-- Location: Your Location
-- Website: [yourwebsite.com](https://yourwebsite.com/)
-- LinkedIn: [yourusername](https://linkedin.com/in/yourusername)
-- GitHub: [yourusername](https://github.com/yourusername)
+- Phone: +82 10 2589 5000
+- Email: [chljeffreyz@gmail.com](mailto:chljeffreyz@gmail.com)
+- Location: Seoul, South Korea
 
 
-# Welcome to RenderCV!
-
-[RenderCV](https://github.com/sinaatalay/rendercv) is a LaTeX-based CV/resume framework. It allows you to create a high-quality CV or resume as a PDF file from a YAML file, with **full Markdown syntax support** and **complete control over the LaTeX code**.
-
-The boilerplate content was inspired by [Gayle McDowell](https://github.com/dnl-blkv/mcdowell-cv).
-
-# Quick Guide
-
-- Each section title is arbitrary and each section contains a list of entries.
-- There are 7 unique entry types: *BulletEntry*, *TextEntry*, *EducationEntry*, *ExperienceEntry*, *NormalEntry*, *PublicationEntry*, and *OneLineEntry*.
-- Select a section title, pick an entry type, and start writing your section!
-- [Here](https://docs.rendercv.com/user_guide/), you can find a comprehensive user guide for RenderCV.
 # Education
 
-## University of Pennsylvania, BS in Computer Science
+## Korea Advanced Institute of Science & Technology, MSc in Financial Engineering
 
-- Sept 2000 – May 2005
-- GPA: 3.9/4.0 ([a link to somewhere](https://example.com))
-- **Coursework:** Computer Architecture, Comparison of Learning Algorithms, Computational Theory
+- Mar 2024 – present
+
+## WorldQuant University, MSc in Financial Engineering
+
+- Jan 2023 – present
+
+## Seoul Nat'l University, Wooribank Training Program in Digital Finance Training
+
+- Apr 2022 – June 2022
+
+## Naver AI Boostcamp, Deep Learning & NLP Projects
+
+- Jan 2021 – June 2021
+
+## Sungkyunkwan University, BSc in Global Economics / Informatics
+
+- Mar 2013 – Aug 2020
 
 # Experience
 
-## Apple, Software Engineer
+## Zero One AI, AI Finance Research Intern
 
-- June 2005 – Aug 2007
-- Cupertino, CA
-- Reduced time to render user buddy lists by 75% by implementing a prediction algorithm
-- Integrated iChat with Spotlight Search by creating a tool to extract metadata from saved chat transcripts and provide metadata to a system-wide search database
-- Redesigned chat file format and implemented backward compatibility for search
+- July 2024 – Aug 2024
+- Seoul, South Korea
+- Established a Quant Factor Database to streamline financial data management.
+- Implemented 153 factors from AQR's study on replication crisis in finance.
+- Reviewed academic papers and extracted WRDS data using official SAS code.
+- Developed GPT-based specifications for paper data and automated third-party financial API documentation.
+- Internship concluded due to semester commencement; plans to resume later.
 
-## Microsoft, Software Engineer Intern
+## Woori Bank, MyData Junior Product Manager
 
-- June 2003 – Aug 2003
-- Redmond, WA
-- Designed a UI for the VS open file switcher (Ctrl-Tab) and extended it to tool windows
-- Created a service to provide gradient across VS and VS add-ins, optimizing its performance via caching
-- Built an app to compute the similarity of all methods in a codebase, reducing the time from $\mathcal{O}(n^2)$ to $\mathcal{O}(n \log n)$
-- Created a test case generation tool that creates random XML docs from XML Schema
-- Automated the extraction and processing of large datasets from legacy systems using SQL and Perl scripts
+- July 2022 – Feb 2024
+- Seoul, South Korea
+- Developed and launched the “My Investment Story” feature using SQL and Python, achieving an 11% push notification response rate.
+- Conducted A/B testing to enhance KPIs, confirming statistical significance through stratified sampling and A/A testing.
+- Defined registration KPIs, authored SQL queries, and designed an admin dashboard for performance monitoring.
+- Analyzed customer stock portfolios against market distributions and presented findings to internal stakeholders.
 
-# Publications
+## Woori Bank, Bank Associate
 
-## 3D Finite Element Analysis of No-Insulation Coils ([10.1109/TASC.2023.3340648](https://doi.org/10.1109/TASC.2023.3340648))
-- Jan 2004
-- Frodo Baggins, ***John Doe***, Samwise Gamgee
+- Sept 2021 – Mar 2022
+- Seoul, South Korea
+- Assisted the branch head in developing a corporate loan-related KPI calculator in Excel, enhancing decision-making capabilities.
+- Submitted 30+ improvement proposals covering system processes, innovative ideas, and bug reports, securing 2nd place in the company’s top proposals award within 3 months of joining.
+
+## HaaFor Research Korea, Junior Quant Researcher
+
+- June 2020 – Nov 2020
+- Seoul, South Korea
+- Conducted alternative data research on over 4,000 U.S. stocks and created novel datasets from USPTO, Seeking Alpha, Zacks News, and Robinhood user preferences, enabling the development of orthogonal alpha strategies with low correlation.
+- Participated in daily frequency statistical arbitrage market-neutral long-short alpha research, applying statistical analysis and quantitative modeling to contribute to investment strategies.
+
+## Intel Corporation, CSR Specialist
+
+- Nov 2016 – Mar 2017
+- Seoul, South Korea
+- Supported executive decision-making by researching IT education status of 200+ Korean high schools with an automated scraper.
+- Reported social issues relevant to CSR programs through daily 1-2 slide PPT summaries.
+- Assisted in coding education for youth using Intel-chip-based Genuino boards.
+- Crawled after-school activity data for 200+ schools for pilot school selection.
+- Translated activity results and manuals into English, presenting business-related issues via PPT.
 
 # Projects
 
-## Multi-User Drawing Tool
+## kor-quant-dataloader
 
-- [github.com/name/repo](https://github.com/sinaatalay/rendercv)
-- Developed an electronic classroom where multiple users can simultaneously view and draw on a "chalkboard" with each person's edits synchronized
-- Tools Used: C++, MFC
+- Developed a low-bias Korean stock dataset package based on KRX and Naver Finance data.
+- Returns various domestic stock data in 2D matrix form, including opening price, low, high, close, trading volume, market cap, PER, etc.
+- Included previously delisted stocks to eliminate survivor bias.
+- Implemented adjusted close correction based on reference opening price.
+- Enabled data caching and delta updates for efficient data retrieval.
+- Provided liquidity-based universe filtering (200, 500, 1000, 2000, etc.).
 
-## Synchronized Desktop Calendar
+## qtrsch
 
-- [github.com/name/repo](https://github.com/sinaatalay/rendercv)
-- Developed a desktop calendar with globally shared and synchronized calendars, allowing users to schedule meetings with other users
-- Tools Used: C#, .NET, SQL, XML
+- Implemented Fama-French 3 factors for a 2000-stock universe based on Korean stock liquidity.
+- Developed alpha strategies through news NLP signals (ongoing).
+- Examined WorldQuant's group neutralization technique using Fama-French 3-factor analysis.
+- Analyzed PEAD (Pre/Post Earnings Announcement Drift) phenomenon in the Korean stock market.
+- Grouped similar stocks via returns correlation clustering.
+- Reconstructed the KOSPI index considering stock splits.
 
-## Custom Operating System
+## Reconstruct Academic Paper from Scratch: Deciphering Monetary Policy Board Minutes through Text Mining Approach (BOK paper)
 
-- 2002
-- Built a UNIX-style OS with a scheduler, file system, text editor, and calculator
-- Tools Used: C
+- Numerically measured the 'tone' of BOK MPB minutes (hawkish/dovish) using a text mining approach.
+- Analyzed the relationship between BOK's policy rate and measured tone data.
+
+## Estimation of Illegal Mobile Phone Subsidies after the Regulation.
+
+- Estimated the size of illegal mobile phone subsidies and observed the effect of the regulation by analyzing internet community forum's text data.
 
 # Technologies
 
-- Languages: C++, C, Java, Objective-C, C#, SQL, JavaScript
-- Technologies: .NET, Microsoft SQL Server, XCode, Interface Builder
+- Programming Languages: Python, R, Stata
+- Tools: MS-Office, Web Scraping, Git, Machine Learning
+- Languages: English (TOEIC 985, TOEIC Speaking 180), German (Zertifikat Deutsch B1), Korean (Native)
+- Military Service: Finished the duty, as an auxiliary riot police (Sep 2014 - June 2016)
