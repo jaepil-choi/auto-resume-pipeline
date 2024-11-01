@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "auto-resume-pipeline"
+version = "0.1.0"
+description = ""
+authors = ["jaepil-choi.laptop <chljeffreyz@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+rendercv = "^1.14"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
