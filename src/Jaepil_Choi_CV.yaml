@@ -68,7 +68,7 @@ cv:
           - "Measured keyword trends of 1000+ IT field academic papers and compared the results of topic modeling method and K-means clustering."
       - name: Estimation of Illegal Mobile Phone Subsidies after the Regulation.
         highlights:
-          - "Estimated the size of illegal mobile phone subsidies and observed the effect of the regulation(단통법) by analyzing internet community forum’s text data."
+          - "Estimated the size of illegal mobile phone subsidies and observed the effect of the regulation by analyzing internet community forum’s text data."
     technologies:
       - label: Programming Languages
         details: "Python, R, Stata"
