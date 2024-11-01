@@ -90,7 +90,7 @@ cv:
         end_date: 2020-11
         highlights:
           - "Researched alternative data from web that can be used in quant investment models and made them into scraping data modules."
-          - "Researched quant prediction models (“Alpha”) to automatically make portfolios based on signals extracted from various data."
+          - "Researched quant prediction models ('Alpha') to automatically make portfolios based on signals extracted from various data."
           - "- Researched data modules related to USPTO patent applications."
           - "- Researched data modules from Seeking Alpha, an amateur analyst community's post data."
           - "- Researched Zacks News stock news site data modules."
@@ -101,8 +101,8 @@ cv:
         start_date: 2016-11
         end_date: 2017-04
         highlights:
-          - "Supported executive’s decision making by researching IT education status of 200+ Korean high schools with an automated scraper."
-          - "Reported social issues relevant to CSR program in 1~2 slides PPT summary on daily basis."
+          - "Supported executive's decision making by researching IT education status of 200+ Korean high schools with an automated scraper."
+          - "Reported social issues relevant to CSR program in 1-2 slides PPT summary on daily basis."
           - "- Assisted coding education for youth using Intel-chip-based Genuino boards."
           - "- Crawled after-school activity data for 200+ schools for pilot school selection."
           - "- Translated activity results/manuals into English and presented business-related issues via PPT."
@@ -117,11 +117,11 @@ cv:
     projects:
       - name: "Reconstruct Academic Paper from Scratch: Deciphering Monetary Policy Board Minutes through Text Mining Approach (BOK paper)"
         highlights:
-          - "Numerically measured the “tone” of BOK MPB minutes (hawkish/dovish) using text mining approach."
-          - "Analyzed the relationship between BOK’s policy rate and measured tone data."
+          - "Numerically measured the 'tone' of BOK MPB minutes (hawkish/dovish) using text mining approach."
+          - "Analyzed the relationship between BOK's policy rate and measured tone data."
       - name: "Estimation of Illegal Mobile Phone Subsidies after the Regulation."
         highlights:
-          - "Estimated the size of illegal mobile phone subsidies and observed the effect of the regulation(단통법) by analyzing internet community forum’s text data."
+          - "Estimated the size of illegal mobile phone subsidies and observed the effect of the regulation by analyzing internet community forum's text data."
       - name: "kor-quant-dataloader"
         highlights:
           - "Developed a low-bias Korean stock dataset package based on KRX and Naver Finance data."
@@ -146,7 +146,7 @@ cv:
       - label: Languages
         details: "English (TOEIC 985, TOEIC Speaking 180), German (Zertifikat Deutsch B1), Korean (Native)"
       - label: Military Service
-        details: "Finished the duty, as an auxiliary riot police (Sep 2014 – June 2016)"
+        details: "Finished the duty, as an auxiliary riot police (Sep 2014 - June 2016)"
 design:
   theme: engineeringresumes
   font: Charter
