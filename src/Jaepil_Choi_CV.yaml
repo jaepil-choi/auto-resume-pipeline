@@ -11,10 +11,10 @@ cv:
   #     username: yourusername
   sections:
     education:
-      - institution: KAIST College of Business
+      - institution: Korea Advanced Institute of Science & Technology
         area: Financial Engineering
-        degree: MS
-        start_date: 2024-02
+        degree: MSc
+        start_date: 2024-03
         end_date: present
         # highlights:
           # - 'GPA: 3.9/4.0 ([a link to somewhere](https://example.com))'
@@ -22,13 +22,22 @@ cv:
           #   of Learning Algorithms, Computational Theory'
       - institution: WorldQuant University
         area: Financial Engineering
-        degree: Master of Science
+        degree: MSc
         start_date: 2023-01
         end_date: present
         # highlights:
           # - 'Details about coursework or achievements.'
+      - institution: Sungkyunkwan University
+        area: Global Economics / Informatics
+        degree: BS
+        start_date: 2013-03
+        end_date: 2020-08
+        # highlights:
+          # - 'GPA: 3.9/4.0 ([a link to somewhere](https://example.com))'
+          # - '**Coursework:** Computer Architecture, Comparison
+          #   of Learning Algorithms, Computational Theory'
       - institution: Seoul Nat'l University
-        area: Digital Finance Training
+        area: Digital Finance
         degree: Wooribank Training Program
         start_date: 2022-04
         end_date: 2022-06
@@ -40,16 +49,33 @@ cv:
         end_date: 2021-06
         # highlights:
           # - 'Focused on deep learning theory and NLP-based practical projects.'
-      - institution: Sungkyunkwan University
-        area: Global Economics / Informatics
-        degree: BS
-        start_date: 2013-03
-        end_date: 2020-08
-        # highlights:
-          # - 'GPA: 3.9/4.0 ([a link to somewhere](https://example.com))'
-          # - '**Coursework:** Computer Architecture, Comparison
-          #   of Learning Algorithms, Computational Theory'
     experience:
+      - company: Woori Bank
+        position: "MyData Junior Product Manager"
+        location: Seoul, South Korea
+        start_date: 2022-07
+        end_date: 2024-02
+        highlights:
+          - "Created and rolled out personalized finance data curation feature “My Investment Story” using SQL and Python, achieving an 11% push notification response rate."
+          - "Conducted A/B testing to enhance KPIs, confirming statistical significance (Stratified sampling, A/A testing)."
+          - "Defined registration KPIs, crafted SQL queries, and designed an admin dashboard for monitoring."
+          - "Analyzed customer stock portfolios vs. market distributions, presented findings internally."
+      - company: Woori Bank
+        position: "Bank Associate"
+        location: Seoul, South Korea
+        start_date: 2021-09
+        end_date: 2022-03
+        highlights:
+          - "Supported the branch head in developing a corporate loan-related KPI calculator in Excel, enhancing decision-making capabilities."
+          - "Submitted 30+ improvement proposals covering system processes, innovative ideas, and bug reports, securing 2nd place in the company’s top proposals award within 3 months of joining."
+      - company: HaaFor Research Korea
+        position: "Junior Quant Researcher"
+        location: Seoul, South Korea
+        start_date: 2020-06
+        end_date: 2020-11
+        highlights:
+          - "Independently conducted alternative data research on over 4,000 U.S. stocks and created novel datasets from sources like the USPTO, Seeking Alpha, Zacks News, and Robinhood user preferences. These datasets were then provided to other alpha researchers, enabling the development of orthogonal alpha strategies with low correlation."
+          - "Participated in daily frequency statistical arbitrage market-neutral long-short alpha research, applying statistical analysis and quantitative modeling to contribute to the development of investment strategies."
       - company: Zero One AI
         position: "AI Finance Research Intern"
         location: Seoul, South Korea
@@ -62,66 +88,18 @@ cv:
           - "- Reviewed papers and extracted WRDS data via authors' official SAS code ([link])."
           - "- Generated GPT-based paper data specs and third-party financial API documentation auto config and modularized it."
           - "- Internship ended due to semester start, to continue later."
-      - company: Wooribank
-        position: "Investment Service Planner & Channel Operator"
-        location: Seoul, South Korea
-        start_date: 2021-09
-        end_date: 2024-02
-        highlights:
-          - "Investment Service Planning:"
-          - "- Created query for 'Domestic Stock Industry Map' (Price-Earnings Ratio Heatmap), planned & applied service, presented internal seminar on reasons for failure."
-          - "- Created query for 'My Investment Story' based on asset data curation content, planned & applied service."
-          - "  - Registered via daily push - highest push response rate (11%) among over 10,000 pushes sent."
-          - "Data Analysis:"
-          - "- Performed first A/B test in department to increase KPI - compared positive/negative and D-day exposure/non-exposure performance of send request rights push, confirmed statistical significance (Stratified Sampling, A/A test)."
-          - "- Defined KPI related to send request rights, wrote queries, planned dashboard & applied internal admin."
-          - "- Compared customer-specific domestic stock portfolio industry distribution with stock market industry distribution (presented in EDA seminar)."
-          - "- EDA on customer asset status data related to [MyData paper (household finance heterogeneity)](https://link.springer.com/article/10.1007/s10479-022-04900-3)."
-          - "Channel Operations:"
-          - "- Incorporated public MyData response services."
-          - "- Incorporated data registration/management service in response to Agreement API 2.0 specifications."
-          - "Others:"
-          - "- Discovered and reported fund return chart errors in WON Banking service."
-          - "- Submitted over 30 ideas for computer/regulation improvements via internal proposal plaza, ranked 2nd for excellent proposal within 3 months of joining."
-      - company: HaaFor Research Korea
-        position: "Intern: Quant Data Researcher"
-        location: Seoul, South Korea
-        start_date: 2020-06
-        end_date: 2020-11
-        highlights:
-          - "Researched alternative data from web that can be used in quant investment models and made them into scraping data modules."
-          - "Researched quant prediction models ('Alpha') to automatically make portfolios based on signals extracted from various data."
-          - "- Researched data modules related to USPTO patent applications."
-          - "- Researched data modules from Seeking Alpha, an amateur analyst community's post data."
-          - "- Researched Zacks News stock news site data modules."
-          - "- Researched popular stock data modules from Robinhood app users."
       - company: Intel Corporation
-        position: "Intern: CAG(CSR) Dept."
+        position: "CSR Specialist"
         location: Seoul, South Korea
         start_date: 2016-11
-        end_date: 2017-04
+        end_date: 2017-03
         highlights:
           - "Supported executive's decision making by researching IT education status of 200+ Korean high schools with an automated scraper."
           - "Reported social issues relevant to CSR program in 1-2 slides PPT summary on daily basis."
           - "- Assisted coding education for youth using Intel-chip-based Genuino boards."
           - "- Crawled after-school activity data for 200+ schools for pilot school selection."
           - "- Translated activity results/manuals into English and presented business-related issues via PPT."
-    # publications:
-    #   - title: 3D Finite Element Analysis of No-Insulation Coils
-    #     authors:
-    #       - Frodo Baggins
-    #       - '***John Doe***'
-    #       - Samwise Gamgee
-    #     doi: 10.1109/TASC.2023.3340648
-    #     date: 2004-01
     projects:
-      - name: "Reconstruct Academic Paper from Scratch: Deciphering Monetary Policy Board Minutes through Text Mining Approach (BOK paper)"
-        highlights:
-          - "Numerically measured the 'tone' of BOK MPB minutes (hawkish/dovish) using text mining approach."
-          - "Analyzed the relationship between BOK's policy rate and measured tone data."
-      - name: "Estimation of Illegal Mobile Phone Subsidies after the Regulation."
-        highlights:
-          - "Estimated the size of illegal mobile phone subsidies and observed the effect of the regulation by analyzing internet community forum's text data."
       - name: "kor-quant-dataloader"
         highlights:
           - "Developed a low-bias Korean stock dataset package based on KRX and Naver Finance data."
@@ -138,6 +116,13 @@ cv:
           - "Analyzed PEAD (Pre/Post Earnings Announcement Drift) phenomenon in Korean stock market."
           - "Grouped similar stocks via returns correlation clustering."
           - "Reconstructed KOSPI index considering splits."
+      - name: "Reconstruct Academic Paper from Scratch: Deciphering Monetary Policy Board Minutes through Text Mining Approach (BOK paper)"
+        highlights:
+          - "Numerically measured the 'tone' of BOK MPB minutes (hawkish/dovish) using text mining approach."
+          - "Analyzed the relationship between BOK's policy rate and measured tone data."
+      - name: "Estimation of Illegal Mobile Phone Subsidies after the Regulation."
+        highlights:
+          - "Estimated the size of illegal mobile phone subsidies and observed the effect of the regulation by analyzing internet community forum's text data."
     technologies:
       - label: Programming Languages
         details: "Python, R, Stata"
