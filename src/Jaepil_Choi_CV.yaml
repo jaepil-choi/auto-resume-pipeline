@@ -1,108 +1,83 @@
 cv:
   name: Jaepil Choi
-  location: Your Location
-  email: youremail@yourdomain.com
-  phone: tel:+90-541-999-99-99
-  website: https://yourwebsite.com/
-  social_networks:
-    - network: LinkedIn
-      username: yourusername
-    - network: GitHub
-      username: yourusername
+  location: Seoul, South Korea
+  email: chljeffreyz@gmail.com
+  phone: +82-10-2589-5000
+  # website: https://yourwebsite.com/
+  # social_networks:
+  #   - network: LinkedIn
+  #     username: yourusername
+  #   - network: GitHub
+  #     username: yourusername
   sections:
-    welcome_to_RenderCV!:
-      - '[RenderCV](https://github.com/sinaatalay/rendercv) is
-        a LaTeX-based CV/resume framework. It allows you to create
-        a high-quality CV or resume as a PDF file from a YAML
-        file, with **full Markdown syntax support** and **complete
-        control over the LaTeX code**.'
-      - The boilerplate content was inspired by [Gayle McDowell](https://github.com/dnl-blkv/mcdowell-cv).
-    quick_guide:
-      - bullet: Each section title is arbitrary and each section
-          contains a list of entries.
-      - bullet: 'There are 7 unique entry types: *BulletEntry*,
-          *TextEntry*, *EducationEntry*, *ExperienceEntry*, *NormalEntry*,
-          *PublicationEntry*, and *OneLineEntry*.'
-      - bullet: Select a section title, pick an entry type, and
-          start writing your section!
-      - bullet: '[Here](https://docs.rendercv.com/user_guide/),
-          you can find a comprehensive user guide for RenderCV.'
     education:
-      - institution: University of Pennsylvania
-        area: Computer Science
+      - institution: KAIST College of Business
+        area: Financial Engineering
+        degree: MS
+        start_date: 2024-03
+        end_date: present
+        # highlights:
+          # - 'GPA: 3.9/4.0 ([a link to somewhere](https://example.com))'
+          # - '**Relevant Courseworks:** Computer Architecture, Comparison
+          #   of Learning Algorithms, Computational Theory'
+      - institution: Sungkyunkwan University
+        area: Global Economics / Informatics
         degree: BS
-        start_date: 2000-09
-        end_date: 2005-05
-        highlights:
-          - 'GPA: 3.9/4.0 ([a link to somewhere](https://example.com))'
-          - '**Coursework:** Computer Architecture, Comparison
-            of Learning Algorithms, Computational Theory'
+        start_date: 2013-03
+        end_date: 2020-08
+        # highlights:
+          # - 'GPA: 3.9/4.0 ([a link to somewhere](https://example.com))'
+          # - '**Coursework:** Computer Architecture, Comparison
+          #   of Learning Algorithms, Computational Theory'
     experience:
-      - company: Apple
-        position: Software Engineer
-        location: Cupertino, CA
-        start_date: 2005-06
-        end_date: 2007-08
+      - company: HaaFor Research Korea
+        position: "Intern: Quant Data Researcher"
+        location: Seoul, South Korea
+        start_date: 2020-06
+        end_date: 2020-11
         highlights:
-          - Reduced time to render user buddy lists by 75% by
-            implementing a prediction algorithm
-          - Integrated iChat with Spotlight Search by creating
-            a tool to extract metadata from saved chat transcripts
-            and provide metadata to a system-wide search database
-          - Redesigned chat file format and implemented backward
-            compatibility for search
-      - company: Microsoft
-        position: Software Engineer Intern
-        location: Redmond, WA
-        start_date: 2003-06
-        end_date: 2003-08
+          - "Researched alternative data from web that can be used in quant investment models and made them into scraping data modules."
+          - "Researched quant prediction models (“Alpha”) to automatically make portfolios based on signals extracted from various data."
+      - company: Intel Corporation
+        position: "Intern: CAG(CSR) Dept."
+        location: Seoul, South Korea
+        start_date: 2016-11
+        end_date: 2017-04
         highlights:
-          - Designed a UI for the VS open file switcher (Ctrl-Tab)
-            and extended it to tool windows
-          - Created a service to provide gradient across VS and
-            VS add-ins, optimizing its performance via caching
-          - Built an app to compute the similarity of all methods
-            in a codebase, reducing the time from $\mathcal{O}(n^2)$
-            to $\mathcal{O}(n \log n)$
-          - Created a test case generation tool that creates random
-            XML docs from XML Schema
-          - Automated the extraction and processing of large datasets
-            from legacy systems using SQL and Perl scripts
-    publications:
-      - title: 3D Finite Element Analysis of No-Insulation Coils
-        authors:
-          - Frodo Baggins
-          - '***John Doe***'
-          - Samwise Gamgee
-        doi: 10.1109/TASC.2023.3340648
-        date: 2004-01
+          - "Supported executive’s decision making by researching IT education status of 200+ Korean high schools with an automated scraper."
+          - "Reported social issues relevant to CSR program in 1~2 slides PPT summary on daily basis."
+    # publications:
+    #   - title: 3D Finite Element Analysis of No-Insulation Coils
+    #     authors:
+    #       - Frodo Baggins
+    #       - '***John Doe***'
+    #       - Samwise Gamgee
+    #     doi: 10.1109/TASC.2023.3340648
+    #     date: 2004-01
     projects:
-      - name: Multi-User Drawing Tool
-        date: '[github.com/name/repo](https://github.com/sinaatalay/rendercv)'
+      - name: "Reconstruct Academic Paper from Scratch: Deciphering Monetary Policy Board Minutes through Text Mining Approach (BOK paper)"
         highlights:
-          - Developed an electronic classroom where multiple users
-            can simultaneously view and draw on a "chalkboard"
-            with each person's edits synchronized
-          - 'Tools Used: C++, MFC'
-      - name: Synchronized Desktop Calendar
-        date: '[github.com/name/repo](https://github.com/sinaatalay/rendercv)'
+          - "Numerically measured the “tone” of BOK MPB minutes (hawkish/dovish) using text mining approach."
+          - "Analyzed the relationship between BOK’s policy rate and measured tone data."
+      - name: Backtesting Trade Strategies with Real World Stock Data using CYBOS API and Backtrader
         highlights:
-          - Developed a desktop calendar with globally shared
-            and synchronized calendars, allowing users to schedule
-            meetings with other users
-          - 'Tools Used: C#, .NET, SQL, XML'
-      - name: Custom Operating System
-        date: 2002
+          - "Gathered +10000 daily & high frequency stock trade data of any stock from a securities company’s API."
+          - "Backtested various trading strategies, such as Golden-cross strategy, with real world constraints like commission."
+      - name: Trend Analysis of IT field Academic Papers using K-Means Clustering
         highlights:
-          - Built a UNIX-style OS with a scheduler, file system,
-            text editor, and calculator
-          - 'Tools Used: C'
+          - "Measured keyword trends of 1000+ IT field academic papers and compared the results of topic modeling method and K-means clustering."
+      - name: Estimation of Illegal Mobile Phone Subsidies after the Regulation.
+        highlights:
+          - "Estimated the size of illegal mobile phone subsidies and observed the effect of the regulation(단통법) by analyzing internet community forum’s text data."
     technologies:
+      - label: Programming Languages
+        details: "Python, R, Stata"
+      - label: Tools
+        details: "MS-Office, Web Scraping, Git, Machine Learning"
       - label: Languages
-        details: C++, C, Java, Objective-C, C#, SQL, JavaScript
-      - label: Technologies
-        details: .NET, Microsoft SQL Server, XCode, Interface
-          Builder
+        details: "English (TOEIC 990), German (Zertifikat Deutsch B1), Korean (Native)"
+      - label: Military Service
+        details: "Finished the duty, as an auxiliary riot police (Sep 2014 – June 2016)"
 design:
   theme: engineeringresumes
   font: Charter
