@@ -14,12 +14,32 @@ cv:
       - institution: KAIST College of Business
         area: Financial Engineering
         degree: MS
-        start_date: 2024-03
+        start_date: 2024-02
         end_date: present
         # highlights:
           # - 'GPA: 3.9/4.0 ([a link to somewhere](https://example.com))'
           # - '**Relevant Courseworks:** Computer Architecture, Comparison
           #   of Learning Algorithms, Computational Theory'
+      - institution: WorldQuant University
+        area: Financial Engineering
+        degree: Master of Science
+        start_date: 2023-01
+        end_date: present
+        # highlights:
+          # - 'Details about coursework or achievements.'
+      - institution: Seoul Nat'l University
+        area: Digital Finance Training
+        degree: Wooribank Training Program
+        start_date: 2022-04
+        end_date: 2022-06
+        # highlights:
+          # - 'Learned data analysis, Oracle SQL, etc.'
+      - institution: Naver AI Boostcamp
+        area: Deep Learning & NLP Projects
+        start_date: 2021-01
+        end_date: 2021-06
+        # highlights:
+          # - 'Focused on deep learning theory and NLP-based practical projects.'
       - institution: Sungkyunkwan University
         area: Global Economics / Informatics
         degree: BS
@@ -30,6 +50,39 @@ cv:
           # - '**Coursework:** Computer Architecture, Comparison
           #   of Learning Algorithms, Computational Theory'
     experience:
+      - company: Zero One AI
+        position: "AI Finance Research Intern"
+        location: Seoul, South Korea
+        start_date: 2024-07
+        end_date: 2024-08
+        highlights:
+          - "Set up Quant Factor Database."
+          - "Main Projects:"
+          - "- DB 153 factors introduced in AQR's paper [Kelly, B., et al. (2023). Is there a replication crisis in finance? The Journal of Finance](https://onlinelibrary.wiley.com/doi/10.1111/jofi.13249)."
+          - "- Reviewed papers and extracted WRDS data via authors' official SAS code ([link])."
+          - "- Generated GPT-based paper data specs and third-party financial API documentation auto config and modularized it."
+          - "- Internship ended due to semester start, to continue later."
+      - company: Wooribank
+        position: "Investment Service Planner & Channel Operator"
+        location: Seoul, South Korea
+        start_date: 2021-09
+        end_date: 2024-02
+        highlights:
+          - "Investment Service Planning:"
+          - "- Created query for 'Domestic Stock Industry Map' (Price-Earnings Ratio Heatmap), planned & applied service, presented internal seminar on reasons for failure."
+          - "- Created query for 'My Investment Story' based on asset data curation content, planned & applied service."
+          - "  - Registered via daily push - highest push response rate (11%) among over 10,000 pushes sent."
+          - "Data Analysis:"
+          - "- Performed first A/B test in department to increase KPI - compared positive/negative and D-day exposure/non-exposure performance of send request rights push, confirmed statistical significance (Stratified Sampling, A/A test)."
+          - "- Defined KPI related to send request rights, wrote queries, planned dashboard & applied internal admin."
+          - "- Compared customer-specific domestic stock portfolio industry distribution with stock market industry distribution (presented in EDA seminar)."
+          - "- EDA on customer asset status data related to [MyData paper (household finance heterogeneity)](https://link.springer.com/article/10.1007/s10479-022-04900-3)."
+          - "Channel Operations:"
+          - "- Incorporated public MyData response services."
+          - "- Incorporated data registration/management service in response to Agreement API 2.0 specifications."
+          - "Others:"
+          - "- Discovered and reported fund return chart errors in WON Banking service."
+          - "- Submitted over 30 ideas for computer/regulation improvements via internal proposal plaza, ranked 2nd for excellent proposal within 3 months of joining."
       - company: HaaFor Research Korea
         position: "Intern: Quant Data Researcher"
         location: Seoul, South Korea
@@ -38,6 +91,10 @@ cv:
         highlights:
           - "Researched alternative data from web that can be used in quant investment models and made them into scraping data modules."
           - "Researched quant prediction models (“Alpha”) to automatically make portfolios based on signals extracted from various data."
+          - "- Researched data modules related to USPTO patent applications."
+          - "- Researched data modules from Seeking Alpha, an amateur analyst community's post data."
+          - "- Researched Zacks News stock news site data modules."
+          - "- Researched popular stock data modules from Robinhood app users."
       - company: Intel Corporation
         position: "Intern: CAG(CSR) Dept."
         location: Seoul, South Korea
@@ -46,6 +103,9 @@ cv:
         highlights:
           - "Supported executive’s decision making by researching IT education status of 200+ Korean high schools with an automated scraper."
           - "Reported social issues relevant to CSR program in 1~2 slides PPT summary on daily basis."
+          - "- Assisted coding education for youth using Intel-chip-based Genuino boards."
+          - "- Crawled after-school activity data for 200+ schools for pilot school selection."
+          - "- Translated activity results/manuals into English and presented business-related issues via PPT."
     # publications:
     #   - title: 3D Finite Element Analysis of No-Insulation Coils
     #     authors:
@@ -59,23 +119,32 @@ cv:
         highlights:
           - "Numerically measured the “tone” of BOK MPB minutes (hawkish/dovish) using text mining approach."
           - "Analyzed the relationship between BOK’s policy rate and measured tone data."
-      - name: Backtesting Trade Strategies with Real World Stock Data using CYBOS API and Backtrader
+      - name: "Estimation of Illegal Mobile Phone Subsidies after the Regulation."
         highlights:
-          - "Gathered +10000 daily & high frequency stock trade data of any stock from a securities company’s API."
-          - "Backtested various trading strategies, such as Golden-cross strategy, with real world constraints like commission."
-      - name: Trend Analysis of IT field Academic Papers using K-Means Clustering
+          - "Estimated the size of illegal mobile phone subsidies and observed the effect of the regulation(단통법) by analyzing internet community forum’s text data."
+      - name: "kor-quant-dataloader"
         highlights:
-          - "Measured keyword trends of 1000+ IT field academic papers and compared the results of topic modeling method and K-means clustering."
-      - name: Estimation of Illegal Mobile Phone Subsidies after the Regulation.
+          - "Developed a low-bias Korean stock dataset package based on KRX and Naver Finance data."
+          - "Returns various domestic stock data in 2D matrix form including opening price, low, high, close, trading volume, market cap, PER, etc."
+          - "Included previously delisted stocks to remove survivor bias."
+          - "Implemented adjusted close correction based on reference opening price."
+          - "Enabled data caching and delta updates."
+          - "Provided liquidity-based universe filtering (200, 500, 1000, 2000, etc.)."
+      - name: "qtrsch"
         highlights:
-          - "Estimated the size of illegal mobile phone subsidies and observed the effect of the regulation by analyzing internet community forum’s text data."
+          - "Implemented Fama-French 3 factors for 2000 universe based on Korean stock liquidity."
+          - "Developed alpha through news NLP signals (ongoing)."
+          - "Examined the meaning of WorldQuant's group neutralization technique through Fama-French 3 factor analysis."
+          - "Analyzed PEAD (Pre/Post Earnings Announcement Drift) phenomenon in Korean stock market."
+          - "Grouped similar stocks via returns correlation clustering."
+          - "Reconstructed KOSPI index considering splits."
     technologies:
       - label: Programming Languages
         details: "Python, R, Stata"
       - label: Tools
         details: "MS-Office, Web Scraping, Git, Machine Learning"
       - label: Languages
-        details: "English (TOEIC 990), German (Zertifikat Deutsch B1), Korean (Native)"
+        details: "English (TOEIC 985, TOEIC Speaking 180), German (Zertifikat Deutsch B1), Korean (Native)"
       - label: Military Service
         details: "Finished the duty, as an auxiliary riot police (Sep 2014 – June 2016)"
 design:
