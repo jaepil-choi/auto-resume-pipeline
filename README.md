@@ -27,14 +27,14 @@
 
 # Work Experience
 
-## Zero One AI, Finance Research Summer Intern
+## Finance Research Summer Intern, Zero One AI
 
 - July 2024 – Aug 2024
 - Seoul, South Korea
 - Initiated the development of Quant Factor DB based on AQR's 'Replication Crisis' paper using CRSP & Compustat on WRDS. (Internship concluded due to semester commencement; planning to resume in the future.)
 - Leveraged GPT to mass convert WRDS data specifications and third-party API documentation, developing a scalable API wrapper for daily factor data production.
 
-## Woori Bank, MyData Junior Product Manager
+## MyData Junior Product Manager, Woori Bank
 
 - July 2022 – Feb 2024
 - Seoul, South Korea
@@ -42,14 +42,14 @@
 - Conducted A/B testing post-release to enhance KPIs, confirming statistical significance.
 - Defined registration KPIs, crafted SQL queries, and designed an admin dashboard for performance monitoring.
 
-## Woori Bank, Bank Associate
+## Bank Associate, Woori Bank
 
 - Sept 2021 – Mar 2022
 - Seoul, South Korea
 - Supported branch head in creating a corporate loan KPI calculator in Excel, enhancing decision-making.
 - Won 2nd place in top proposals award with 30+ system/process improvement proposals within 3 months of joining.
 
-## HaaFor Research Korea, Junior Quant Research Intern
+## Junior Quant Research Intern, HaaFor Research Korea
 
 - June 2020 – Nov 2020
 - Seoul, South Korea
