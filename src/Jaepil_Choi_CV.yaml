@@ -10,8 +10,8 @@ cv:
     # - network: GitHub
       # username: yourusername
   sections:
-    education:
-      - institution: Korea Advanced Institute of Science & Technology
+    education_and_certificates: # can't take education_&_certificates because & is not parsed
+      - institution: KAIST College of Business
         area: Financial Engineering
         degree: MSc
         start_date: 2024-03
@@ -21,21 +21,28 @@ cv:
         degree: MSc
         start_date: 2023-01
         end_date: present
-      - institution: Seoul Nat'l University
-        area: Digital Finance Training
-        degree: Wooribank Training Program
-        start_date: 2022-04
-        end_date: 2022-06
-      - institution: Naver AI Boostcamp
-        area: Deep Learning & NLP Projects
-        start_date: 2021-01
-        end_date: 2021-06
+      # - institution: Seoul Nat'l University
+      #   area: Digital Finance Training
+      #   degree: Wooribank Training Program
+      #   start_date: 2022-04
+      #   end_date: 2022-06
+      # - institution: Naver AI Boostcamp
+      #   area: Deep Learning & NLP Projects
+      #   start_date: 2021-01
+      #   end_date: 2021-06
       - institution: Sungkyunkwan University
         area: Global Economics / Informatics
         degree: BSc
         start_date: 2013-03
         end_date: 2020-08
-    experience:
+      - institution: Finance Certificates
+        area: "CFA Institute / KOFIA"
+        highlights:
+          - Passed CFA Level 1 (2020)
+          - Certified Investment Manager (2019)
+          - Certified Derivatives Investment Advisor (2023)
+          - Certified Fund Investment Advisor (2022)
+    work_experience:
       - company: Zero One AI
         position: "AI Finance Research Intern"
         location: Seoul, South Korea
@@ -84,6 +91,7 @@ cv:
           - "Assisted in coding education for youth using Intel-chip-based Genuino boards."
           - "Crawled after-school activity data for 200+ schools for pilot school selection."
           - "Translated activity results and manuals into English, presenting business-related issues via PPT."
+    # projects_and_awards:
     projects:
       - name: "kor-quant-dataloader"
         highlights:
@@ -108,11 +116,9 @@ cv:
       - name: "Estimation of Illegal Mobile Phone Subsidies after the Regulation."
         highlights:
           - "Estimated the size of illegal mobile phone subsidies and observed the effect of the regulation by analyzing internet community forum's text data."
-    technologies:
-      - label: Programming Languages
-        details: "Python, R, Stata"
-      - label: Tools
-        details: "MS-Office, Web Scraping, Git, Machine Learning"
+    additional_information:
+      - label: Tech
+        details: "Python, Oracle SQL, Git-flow, Web Scraping, MS-Office"
       - label: Languages
         details: "English (TOEIC 985, TOEIC Speaking 180), German (Zertifikat Deutsch B1), Korean (Native)"
       - label: Military Service
