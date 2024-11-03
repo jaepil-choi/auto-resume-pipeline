@@ -12,7 +12,7 @@
 
 - Mar 2024 – present
 
-## WorldQuant University, MSc in Financial Engineering
+## WorldQuant Online University, MSc in Financial Engineering
 
 - Jan 2023 – present
 
