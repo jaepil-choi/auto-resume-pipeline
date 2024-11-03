@@ -41,8 +41,8 @@ cv:
           - "CFA: Passed Level 1 (2019)"
           - "KOFIA: Certified Investment Manager (2019), Certified Derivatives Investment Advisor (2023), Certified Fund Investment Advisor (2022)"
     work_experience:
-      - company: Zero One AI
-        position: "Finance Research Summer Intern"
+      - company: "Finance Research Summer Intern"
+        position: Zero One AI
         location: Seoul, South Korea
         start_date: 2024-07
         end_date: 2024-08
@@ -51,8 +51,8 @@ cv:
              (Internship concluded due to semester commencement; planning to resume in the future.)"
           - "Leveraged GPT to mass convert WRDS data specifications and third-party API documentation, developing a scalable API wrapper for daily factor data production."
           
-      - company: Woori Bank
-        position: "MyData Junior Product Manager"
+      - company: "MyData Junior Product Manager"
+        position: Woori Bank
         location: Seoul, South Korea
         start_date: 2022-07
         end_date: 2024-02
@@ -60,24 +60,24 @@ cv:
           - "Authored storyboard, conducted EDA using SQL and Python, and managed the development of the personalized data curation feature “My Investment Story”, achieving an 11% push notification response rate (highest among 10,000+ sends)."
           - "Conducted A/B testing post-release to enhance KPIs, confirming statistical significance."
           - "Defined registration KPIs, crafted SQL queries, and designed an admin dashboard for performance monitoring."
-      - company: Woori Bank
-        position: "Bank Associate"
+      - company: "Bank Associate"
+        position: Woori Bank
         location: Seoul, South Korea
         start_date: 2021-09
         end_date: 2022-03
         highlights:
           - "Supported branch head in creating a corporate loan KPI calculator in Excel, enhancing decision-making."
           - "Won 2nd place in top proposals award with 30+ system/process improvement proposals within 3 months of joining."
-      - company: HaaFor Research Korea
-        position: "Junior Quant Research Intern"
+      - company: "Junior Quant Research Intern"
+        position: HaaFor Research Korea
         location: Seoul, South Korea
         start_date: 2020-06
         end_date: 2020-11
         highlights:
           - "Conducted alternative data research on over 4,000 U.S. stocks and created novel datasets from patents, news, and online user metrics, supporting the development of orthogonal alpha strategies with low correlation."
           - "Gained experience in daily market-neutral alpha research using statistical analysis and quantitative modeling."
-      # - company: Intel Corporation
-      #   position: "CSR Specialist Intern"
+      # - company: "CSR Specialist Intern"
+      #   position: Intel Corporation
       #   location: Seoul, South Korea
       #   start_date: 2016-11
       #   end_date: 2017-03
