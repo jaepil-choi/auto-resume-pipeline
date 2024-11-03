@@ -58,10 +58,9 @@ cv:
         start_date: 2022-07
         end_date: 2024-02
         highlights:
-          - "Developed and launched the “My Investment Story” feature using SQL and Python, achieving an 11% push notification response rate."
-          - "Conducted A/B testing to enhance KPIs, confirming statistical significance through stratified sampling and A/A testing."
-          - "Defined registration KPIs, authored SQL queries, and designed an admin dashboard for performance monitoring."
-          - "Analyzed customer stock portfolios against market distributions and presented findings to internal stakeholders."
+          - "Authored storyboard, conducted EDA using SQL and Python, and managed the development of the personalized data curation feature “My Investment Story”, achieving an 11% push notification response rate (highest among 10,000+ sends)."
+          - "Conducted A/B testing post-release to enhance KPIs, confirming statistical significance."
+          - "Defined registration KPIs, crafted SQL queries, and designed an admin dashboard for performance monitoring."
       - company: Woori Bank
         position: "Bank Associate"
         location: Seoul, South Korea
@@ -69,51 +68,41 @@ cv:
         end_date: 2022-03
         highlights:
           - "Assisted the branch head in developing a corporate loan-related KPI calculator in Excel, enhancing decision-making capabilities."
-          - "Submitted 30+ improvement proposals covering system processes, innovative ideas, and bug reports, securing 2nd place in the company’s top proposals award within 3 months of joining."
+          - "Earned 2nd place in company’s top proposals award by submitting 30+ system/process improvement proposals within 3 months of joining."
       - company: HaaFor Research Korea
         position: "Junior Quant Researcher"
         location: Seoul, South Korea
         start_date: 2020-06
         end_date: 2020-11
         highlights:
-          - "Conducted alternative data research on over 4,000 U.S. stocks and created novel datasets from USPTO, Seeking Alpha, Zacks News, and Robinhood user preferences, enabling the development of orthogonal alpha strategies with low correlation."
-          - "Participated in daily frequency statistical arbitrage market-neutral long-short alpha research, applying statistical analysis and quantitative modeling to contribute to investment strategies."
+          - "Conducted alternative data research on over 4,000 U.S. stocks and created novel datasets from patents, news, and online user metrics, supporting the development of orthogonal alpha strategies with low correlation."
+          - "Gained experience in daily statistical arbitrage market-neutral long-short alpha research, utilizing statistical analysis and quantitative modeling."
       - company: Intel Corporation
         position: "CSR Specialist"
         location: Seoul, South Korea
         start_date: 2016-11
         end_date: 2017-03
         highlights:
-          - "Supported executive decision-making by researching IT education status of 200+ Korean high schools with an automated scraper."
-          - "Reported social issues relevant to CSR programs through daily 1-2 slide PPT summaries."
-          - "Assisted in coding education for youth using Intel-chip-based Genuino boards."
-          - "Crawled after-school activity data for 200+ schools for pilot school selection."
-          - "Translated activity results and manuals into English, presenting business-related issues via PPT."
+          - "Developed automated data scraping tools to collect and analyze information from 200+ Korean high schools, supporting executive decision-making."
+          - "Created concise 1-2 slide executive summaries on social issues, demonstrating strong data reporting and presentation skills."
     # projects_and_awards:
     projects:
       - name: "kor-quant-dataloader"
         highlights:
-          - "Developed a low-bias Korean stock dataset package based on KRX and Naver Finance data."
-          - "Returns various domestic stock data in 2D matrix form, including opening price, low, high, close, trading volume, market cap, PER, etc."
-          - "Included previously delisted stocks to eliminate survivor bias."
-          - "Implemented adjusted close correction based on reference opening price."
-          - "Enabled data caching and delta updates for efficient data retrieval."
-          - "Provided liquidity-based universe filtering (200, 500, 1000, 2000, etc.)."
+          - "Developed a low-bias Korean stock dataset package using KRX and Naver Finance data, including delisted stocks to eliminate survivor bias."
+          - "Designed to return structured, user-specified datasets in a 2D DataFrame format for seamless integration into quant alpha research."
+          # Below is not done yet
+          # - "Implemented adjusted close correction based on reference opening price."
+          # - "Enabled data caching and delta updates for efficient data retrieval."
+          # - "Provided liquidity-based universe filtering (200, 500, 1000, 2000, etc.)."
       - name: "qtrsch"
         highlights:
-          - "Implemented Fama-French 3 factors for a 2000-stock universe based on Korean stock liquidity."
-          - "Developed alpha strategies through news NLP signals (ongoing)."
-          - "Examined WorldQuant's group neutralization technique using Fama-French 3-factor analysis."
-          - "Analyzed PEAD (Pre/Post Earnings Announcement Drift) phenomenon in the Korean stock market."
-          - "Grouped similar stocks via returns correlation clustering."
-          - "Reconstructed the KOSPI index considering stock splits."
-      - name: "Reconstruct Academic Paper from Scratch: Deciphering Monetary Policy Board Minutes through Text Mining Approach (BOK paper)"
+          - "Constructed Fama-French 5-factor model for Korean stock data from scratch and validated factor returns against a commercial data vendor's benchmarks."
+          - "Investigated the impact of group-neutralization on stock returns by decomposing returns into factor-based components."
+          - "Conducted in-depth analysis of the PEAD phenomenon in the Korean market, visualizing cumulative returns surrounding earnings announcements."
+      - name: "Replicated Academic Paper: 'Deciphering Monetary Policy Board Minutes through Text Mining Approach' (2019, BOK)"
         highlights:
-          - "Numerically measured the 'tone' of BOK MPB minutes (hawkish/dovish) using a text mining approach."
-          - "Analyzed the relationship between BOK's policy rate and measured tone data."
-      - name: "Estimation of Illegal Mobile Phone Subsidies after the Regulation."
-        highlights:
-          - "Estimated the size of illegal mobile phone subsidies and observed the effect of the regulation by analyzing internet community forum's text data."
+          - "Quantified the 'tone' (hawkish/dovish) of BOK Monetary Policy Board minutes using text mining techniques and analyzed its correlation with policy rate changes."
     additional_information:
       - label: Tech
         details: "Python, Oracle SQL, Git-flow, Web Scraping, MS-Office"
