@@ -36,22 +36,21 @@ cv:
         start_date: 2013-03
         end_date: 2020-08
       - institution: Finance Certificates
-        area: "CFA Institute / KOFIA"
+        area: ""
         highlights:
-          - Passed CFA Level 1 (2020)
-          - Certified Investment Manager (2019)
-          - Certified Derivatives Investment Advisor (2023)
-          - Certified Fund Investment Advisor (2022)
+          - "CFA: Passed Level 1 (2019)"
+          - "KOFIA: Certified Investment Manager (2019), Certified Derivatives Investment Advisor (2023), Certified Fund Investment Advisor (2022)"
     work_experience:
       - company: Zero One AI
-        position: "AI Finance Research Intern"
+        position: "Finance Research Summer Intern"
         location: Seoul, South Korea
         start_date: 2024-07
         end_date: 2024-08
         highlights:
-          - "Initiated the development of Quant Factor Database based on AQR's 'Replication Crisis' paper using CRSP & Compustat on WRDS."
+          - "Initiated the development of Quant Factor DB based on AQR's 'Replication Crisis' paper using CRSP & Compustat on WRDS.
+             (Internship concluded due to semester commencement; planning to resume in the future.)"
           - "Leveraged GPT to mass convert WRDS data specifications and third-party API documentation, developing a scalable API wrapper for daily factor data production."
-          - "Internship concluded due to semester commencement; planning to resume in the future."
+          
       - company: Woori Bank
         position: "MyData Junior Product Manager"
         location: Seoul, South Korea
@@ -67,37 +66,37 @@ cv:
         start_date: 2021-09
         end_date: 2022-03
         highlights:
-          - "Assisted the branch head in developing a corporate loan-related KPI calculator in Excel, enhancing decision-making capabilities."
-          - "Earned 2nd place in company’s top proposals award by submitting 30+ system/process improvement proposals within 3 months of joining."
+          - "Supported branch head in creating a corporate loan KPI calculator in Excel, enhancing decision-making."
+          - "Won 2nd place in top proposals award with 30+ system/process improvement proposals within 3 months of joining."
       - company: HaaFor Research Korea
-        position: "Junior Quant Researcher"
+        position: "Junior Quant Research Intern"
         location: Seoul, South Korea
         start_date: 2020-06
         end_date: 2020-11
         highlights:
           - "Conducted alternative data research on over 4,000 U.S. stocks and created novel datasets from patents, news, and online user metrics, supporting the development of orthogonal alpha strategies with low correlation."
-          - "Gained experience in daily statistical arbitrage market-neutral long-short alpha research, utilizing statistical analysis and quantitative modeling."
-      - company: Intel Corporation
-        position: "CSR Specialist"
-        location: Seoul, South Korea
-        start_date: 2016-11
-        end_date: 2017-03
-        highlights:
-          - "Developed automated data scraping tools to collect and analyze information from 200+ Korean high schools, supporting executive decision-making."
-          - "Created concise 1-2 slide executive summaries on social issues, demonstrating strong data reporting and presentation skills."
+          - "Gained experience in daily market-neutral alpha research using statistical analysis and quantitative modeling."
+      # - company: Intel Corporation
+      #   position: "CSR Specialist Intern"
+      #   location: Seoul, South Korea
+      #   start_date: 2016-11
+      #   end_date: 2017-03
+      #   highlights:
+      #     - "Developed automated data scraping tools to collect and analyze information from 200+ Korean high schools, supporting executive decision-making."
+      #     - "Created concise 1-2 slide executive summaries on social issues, demonstrating strong data reporting and presentation skills."
     # projects_and_awards:
     projects:
       - name: "kor-quant-dataloader"
         highlights:
-          - "Developed a low-bias Korean stock dataset package using KRX and Naver Finance data, including delisted stocks to eliminate survivor bias."
-          - "Designed to return structured, user-specified datasets in a 2D DataFrame format for seamless integration into quant alpha research."
+          - "Developed a low-bias Korean stock dataset package using KRX data, including delisted stocks to eliminate survivor bias."
+          - "Designed to return structured, user-specified datasets in a 2D format, simplifying data access for efficient alpha research."
           # Below is not done yet
           # - "Implemented adjusted close correction based on reference opening price."
           # - "Enabled data caching and delta updates for efficient data retrieval."
           # - "Provided liquidity-based universe filtering (200, 500, 1000, 2000, etc.)."
       - name: "qtrsch"
         highlights:
-          - "Constructed Fama-French 5-factor model for Korean stock data from scratch and validated factor returns against a commercial data vendor's benchmarks."
+          - "Constructed Fama-French 5-factor model for Korean stock data from scratch and validated factor returns against a commercial data vendor's benchmarks. (FnGuide)"
           - "Investigated the impact of group-neutralization on stock returns by decomposing returns into factor-based components."
           - "Conducted in-depth analysis of the PEAD phenomenon in the Korean market, visualizing cumulative returns surrounding earnings announcements."
       - name: "Replicated Academic Paper: 'Deciphering Monetary Policy Board Minutes through Text Mining Approach' (2019, BOK)"
