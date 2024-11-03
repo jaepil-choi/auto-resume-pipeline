@@ -49,11 +49,9 @@ cv:
         start_date: 2024-07
         end_date: 2024-08
         highlights:
-          - "Established a Quant Factor Database to streamline financial data management."
-          - "Implemented 153 factors from AQR's study on replication crisis in finance."
-          - "Reviewed academic papers and extracted WRDS data using official SAS code."
-          - "Developed GPT-based specifications for paper data and automated third-party financial API documentation."
-          - "Internship concluded due to semester commencement; plans to resume later."
+          - "Initiated the development of Quant Factor Database based on AQR's 'Replication Crisis' paper using CRSP & Compustat on WRDS."
+          - "Leveraged GPT to mass convert WRDS data specifications and third-party API documentation, developing a scalable API wrapper for daily factor data production."
+          - "Internship concluded due to semester commencement; planning to resume in the future."
       - company: Woori Bank
         position: "MyData Junior Product Manager"
         location: Seoul, South Korea
